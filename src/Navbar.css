@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    padding: 0.5rem 0;
+    height: 10vh;
+}
+.header img{
+    height: 70px;
+    width: 150px;
+    padding: 0.4rem;
+}
+.header .bn-container ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.header .bn-container ul li{
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 18px;
+}
+.header .bn-container ul li:hover{
+    color: deepskyblue;
+}
+.header .nav-logos{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.nav-logos i{
+    color: black;
+    padding: 0.3rem;
+    border-radius: 50%;
+    background-color: rgb(220, 235, 249);
+}
+.cart-icon{
+    position: relative;
+}
+.cart-icon .count{
+    position: absolute;
+    top: -0.6rem;
+    right: -0.6rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    line-height: 1;
+    padding: 2px 4px;
+}

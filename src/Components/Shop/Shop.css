@@ -1,0 +1,45 @@
+.shop{
+    text-align: center;
+    height: 65vh;
+    margin-top: 30px;
+}
+.shop span{
+    text-transform: uppercase;
+    color: red;
+}
+.shop h3{
+    font-size: 2rem;
+    margin-top: 0px;
+}
+.shop .shop-cate{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: aliceblue;
+    height: 350px;
+}
+.shop-left{
+    padding: 0 0 0 10rem ;
+}
+.shop-left img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.shop-right{
+    padding: 0 10rem 0 0;
+    margin-top: 20px;
+}
+.shop-right p{
+    font-size: 16px;
+    margin-top: 50px;
+    color:gray;
+}
+.shop-right .shop-buttons{
+    margin-top: 40px;
+}
+.shop-right .shop-buttons button{
+    margin-right: 10px;
+    width: 150px;
+}

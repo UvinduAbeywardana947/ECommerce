@@ -1,0 +1,39 @@
+.blog{
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10rem 0 10rem;
+    height: 62vh;
+}
+.blog .bl{
+    text-transform: uppercase;
+    color: red;
+}
+.blog h3{
+    font-size: 2rem;
+    margin-top: 0px;
+}
+.blog p{
+    color: gray;
+}
+.brands{
+    margin-top: 50px;
+}
+.brands h4{
+    font-size: 1.4rem;
+    color: deepskyblue;
+    margin-top: -20px;
+}
+.brands-det{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 10px;
+}
+.brands-det img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid deepskyblue;
+}

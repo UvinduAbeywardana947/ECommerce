@@ -1,0 +1,10 @@
+.html{
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+.App{
+    margin: 0;
+    padding: 0 ;
+    color: black;
+    overflow: hidden;
+}
